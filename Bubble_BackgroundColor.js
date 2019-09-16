@@ -14,7 +14,7 @@ function setup() {
 }
 
 function draw() {
-  background(220,12,120);
+  background(220,12,120);//background color change
 
   for (var i = 0; i < bubbles.length; i++) {
     var bubble = bubbles[i];
