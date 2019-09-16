@@ -25,7 +25,7 @@ function draw() {
       }
       fill(255, 200, 200, 200);
     } else {
-      fill(255, 0, 200, 200);
+      fill(255, 0, 200, 200);//bubble color change
     }
 
     ellipse(bubble.x, bubble.y, bubble.radius * 2);
