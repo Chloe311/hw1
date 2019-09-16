@@ -7,7 +7,7 @@ function setup() {
     var bubble = {
       x: random(width),
       y: random(height),
-      radius: random(10, 300)
+      radius: random(10, 300)//change bubble size
     };
     bubbles.push(bubble);
   }
