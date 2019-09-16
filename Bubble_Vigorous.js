@@ -31,5 +31,5 @@ function draw() {
     ellipse(bubble.x, bubble.y, bubble.radius * 2);
     bubble.x += random(-5, 4);
     bubble.y += random(-10, 8);
-  }
+  }//more vigorous bubbles
 }
