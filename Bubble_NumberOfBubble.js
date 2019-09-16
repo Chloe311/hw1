@@ -3,7 +3,7 @@ var bubbles = [];
 function setup() {
   createCanvas(800, 600);
 
-  for (var i = 0; i < 50; i++) {
+  for (var i = 0; i < 50; i++) {//change number of bubble
     var bubble = {
       x: random(width),
       y: random(height),
